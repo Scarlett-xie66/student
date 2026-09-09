@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Yuxi Xie"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: bio.qmd
+        text: bio
+      - href: resume.qmd
+        text: resume
+      - href: blog/index.qmd
+        text: blog
+
+  page-footer:
+    center: |
+      © 2026 Yuxi Xie(Scarlett)
+    left: |
+      ![](/images/University of Pennsylvania.png){width=200px}
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+
